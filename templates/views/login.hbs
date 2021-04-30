@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/favicon.jpg">
+    <title>Project Manager</title>
+</head>
+
+<body>
+    <h2>{{title}} Page</h2>
+    <form action="/" method="POST" autocomplete="off">
+        <label for="email">Email: </label>
+        <input id="email" type="text" placeholder="Enter Email">
+        <label for="password">Password: </label>
+        <input id="password" type="password" placeholder="Enter Password">
+        <button type="submit">Submit</button>
+    </form>
+    <span>New User <a href="/signup">Sign Up</a>!</span>
+    {{>footer}}

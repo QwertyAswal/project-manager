@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/favicon.jpg">
+    <title>Project Manager</title>
+</head>
+
+<body>
+    <h2>{{title}} Page</h2>
+    <form action="/signup" method="POST" autocomplete="off">
+        <label for="username">Username: </label>
+        <input id="username" type="text" placeholder="Enter Username">
+        <label for="email">Email: </label>
+        <input id="email" type="text" placeholder="Enter Email">
+        <label for="password">Password: </label>
+        <input id="password" type="password" placeholder="Enter Password">
+        <label for="repassword">Re-Password: </label>
+        <input id="repassword" type="password" placeholder="Re-Enter Password">
+
+        <button type="submit">Submit</button>
+    </form>
+    <span>Already Registered <a href="/">Login</a>!</span>
+    {{>footer}}
