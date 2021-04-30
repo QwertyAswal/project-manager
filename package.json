@@ -1,0 +1,26 @@
+{
+  "name": "project-manager",
+  "version": "1.0.0",
+  "description": "Hello from Qwerty",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sever/index.js",
+    "dev": "env-cmd -f config/dev.env node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QwertyAswal/project-manager.git"
+  },
+  "author": "Qwerty Aswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QwertyAswal/project-manager/issues"
+  },
+  "homepage": "https://github.com/QwertyAswal/project-manager#readme",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}
