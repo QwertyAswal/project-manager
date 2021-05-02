@@ -11,15 +11,15 @@
     <h2>{{title}} Page</h2>
     <form action="/signup" method="POST" autocomplete="off">
         <label for="username">Username: </label>
-        <input id="username" type="text" placeholder="Enter Username">
+        <input name="username" id="username" type="text" placeholder="Enter Username" required>
         <label for="email">Email: </label>
-        <input id="email" type="text" placeholder="Enter Email">
+        <input name="email" id="email" type="text" placeholder="Enter Email" required>
         <label for="password">Password: </label>
-        <input id="password" type="password" placeholder="Enter Password">
+        <input name="password" id="password" type="password" placeholder="Enter Password" required>
         <label for="repassword">Re-Password: </label>
-        <input id="repassword" type="password" placeholder="Re-Enter Password">
+        <input name="repassword" id="repassword" type="password" placeholder="Re-Enter Password" required>
 
         <button type="submit">Submit</button>
     </form>
-    <span>Already Registered <a href="/">Login</a>!</span>
+    <span>Already Registered <a href="/login">Login</a>!</span>
     {{>footer}}

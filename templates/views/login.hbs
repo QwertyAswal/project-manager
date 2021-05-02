@@ -9,11 +9,11 @@
 
 <body>
     <h2>{{title}} Page</h2>
-    <form action="/" method="POST" autocomplete="off">
+    <form action="/login" method="post" autocomplete="off">
         <label for="email">Email: </label>
-        <input id="email" type="text" placeholder="Enter Email">
+        <input id="email" type="text" placeholder="Enter Email" name="email">
         <label for="password">Password: </label>
-        <input id="password" type="password" placeholder="Enter Password">
+        <input id="password" type="password" placeholder="Enter Password" name="password">
         <button type="submit">Submit</button>
     </form>
     <span>New User <a href="/signup">Sign Up</a>!</span>
